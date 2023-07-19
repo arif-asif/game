@@ -219,6 +219,32 @@ header{
     width: 16rem;
     text-align: left;
 }
+.video_style:hover{
+    color: #0B0223;
+}
+.playbutton{
+    width: 15.3rem;
+    height: 18.9rem;
+    border: #ff42a400 solid;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: -19.3rem;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.65s;
+}
+
+.playbutton:hover{
+    opacity: 1;
+    border: #FF42A5 solid;
+    background-color: #00000082;
+
+}
+
 
 
 @media screen and (max-width: 425px) {

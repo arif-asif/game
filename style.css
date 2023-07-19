@@ -277,6 +277,42 @@ header{
     margin-left: -36rem;
     margin-top: 20rem;
 }
+.gametype{
+    padding: 5rem 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.btn{
+    display: inline-flex;
+    align-items: center;
+    padding: .7rem .7rem;
+    align-items: flex-start;
+    border: white solid 5px;
+    border-radius: 48px;
+    background-color: #ffffff;
+    font-size: .8rem;
+    transition: .5s;
+
+
+
+}
+.logosize{
+    width: 2.5rem;
+}
+.small_text5{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    color: #0B0223;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.btn:hover{
+    border: #F948B2 solid 1px;
+}
 
 
 
@@ -383,6 +419,37 @@ header{
         font-size: 1.5rem;
         line-height: 2rem;
     }
+    .gametype{
+    padding: 5rem .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    }
+    .btn{
+        padding: .2rem .3rem;
+        align-items: flex-start;
+        border: white solid 5px;
+        border-radius: 48px;
+        background-color: #ffffff;
+        font-size: .8rem;
+        transition: .5s;
+    
+    
+    
+    }
+    .logosize{
+        width: 1.5rem;
+    }
+    .small_text5{
+        padding-top: .5rem;
+        padding-left: .4rem;
+        color: #0B0223;
+        font-size: 0.45rem;
+        font-weight: 500;
+    }
 
 
 }
@@ -463,4 +530,35 @@ header{
         font-size: 1.5rem;
         line-height: 2rem;
     }
+    .gametype{
+        padding: 5rem 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+        background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+        }
+        .btn{
+            padding: .2rem .3rem;
+            align-items: flex-start;
+            border: white solid 5px;
+            border-radius: 48px;
+            background-color: #ffffff;
+            font-size: .8rem;
+            transition: .5s;
+        
+        
+        
+        }
+        .logosize{
+            width: 1.5rem;
+        }
+        .small_text5{
+            padding-top: .5rem;
+            padding-left: .4rem;
+            color: #0B0223;
+            font-size: 0.45rem;
+            font-weight: 500;
+        }
 }

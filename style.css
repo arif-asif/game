@@ -88,7 +88,7 @@ header{
     font-family: Work Sans;
     font-size: 1rem;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 2rem;
     text-transform: lowercase;
 }
@@ -118,7 +118,67 @@ header{
     color: #FFFFFF;
     font-size: .8rem;
 }
-
+.wegamer{
+    margin-top: -345px;
+    padding-left: 10rem;
+    padding-right: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.wegamertitle{
+    font-size: 2rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.wegamerimg{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    width: 36em;
+    height: 20em;
+    background-color: #FFFFFF;
+}
+.small_text2{
+    padding: 1rem 0rem 1rem 3rem;
+    text-align: right;
+    line-height: 2em;
+    color: #534C64;
+    font-size: .7rem;
+    font-weight: 400;
+}
+.purpose{
+    color: #534C64;
+    text-align: right;
+    font-size: .9rem;
+    font-weight: 500;
+}
+.purpose2{
+    color: #534C64;
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 45px;
+}
+.wegamer_description{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    background-color: #FFFFFF;
+}
+.pink_button2{
+    display: inline-flex;
+    padding: 1rem 2.5rem;
+    align-items: flex-start;
+    border: 0px;
+    border-radius: 48px;
+    background-color: #FF42A5;
+    color: #FFFFFF;
+    font-size: .7rem;
+    margin-bottom: 1rem;
+}
 
 
 @media screen and (max-width: 425px) {
@@ -166,6 +226,28 @@ header{
         padding: 1rem 2rem;
         font-size: .6rem;
     }
+    .wegamer{
+        flex-direction: column;
+        margin-top: -1.99rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        background: none;
+        background-color: #FFF;
+    }
+    .wegamerimg{
+        padding-left : .5rem;
+        padding-right: .5rem;
+        width: 25rem;
+        height: 14rem;
+    }
+    .wegamer_description{
+        margin-top: -5rem;
+        align-items: center;
+    }
+    .small_text2{
+        text-align: center;
+        padding: 1rem 0.5rem;
+    }
 }
 
 
@@ -192,5 +274,30 @@ header{
         height: auto;
         width: auto;
         padding: 8rem;
+    }
+    .small_text2{
+        padding: 1rem ,5rem;
+    }
+    .wegamer{
+        flex-direction: column;
+        margin-top: -1.99rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        background: none;
+        background-color: #FFF;
+    }
+    .wegamerimg{
+        padding-left : .5rem;
+        padding-right: .5rem;
+        width: 25rem;
+        height: 14rem;
+    }
+    .wegamer_description{
+        margin-top: -5rem;
+        align-items: center;
+    }
+    .small_text2{
+        text-align: center;
+        padding: 1rem 0.5rem;
     }
 }

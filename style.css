@@ -146,7 +146,7 @@ header{
     text-align: right;
     line-height: 2em;
     color: #534C64;
-    font-size: .7rem;
+    font-size: .9rem;
     font-weight: 400;
 }
 .purpose{
@@ -242,8 +242,42 @@ header{
     opacity: 1;
     border: #FF42A5 solid;
     background-color: #00000082;
+}
+.view{
+    margin: 12rem 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem
+    
+}
+.view_caption{
+    width: 25rem;
+}
+.view_title{
+    text-align: right;
+    font-size: 2.5em;
+    font-weight: 700;
+    line-height: 60px; /* 125% */
+}
+
+.theme_color{
+    color: #FF42A5;
+}
+.photo1{
+    width: 28.8rem;
+    height: 30rem;
+    border-radius: 8px;
 
 }
+.photo2{
+    width: 13rem;
+    height: 15rem;
+    position: absolute;   
+    margin-left: -36rem;
+    margin-top: 20rem;
+}
+
 
 
 
@@ -323,6 +357,32 @@ header{
     .small_text3{
         font-size: .7rem;
     }
+    .view{
+        flex-direction: column;
+        margin: 12rem 2rem;
+    }
+    .photo1{
+        padding-left: 4rem;    
+        width: 16rem;
+        height: 17rem;
+        border-radius: 8px;
+        margin-top: -8rem;
+    
+    }
+    .photo2{
+        width: 7rem;
+        height: 8rem;
+        position: absolute;   
+        margin-left: -20rem;
+        margin-top: 4rem;
+
+
+    }
+    .view_title{
+        text-align: center;
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
 
 
 }
@@ -376,5 +436,31 @@ header{
     .small_text2{
         text-align: center;
         padding: 1rem 0.5rem;
+    }
+    .view{
+        flex-direction: column;
+        margin: 12rem 2rem;
+    }
+    .photo1{
+        padding-left: 4rem;    
+        width: 16rem;
+        height: 17rem;
+        border-radius: 8px;
+        margin-top: -8rem;
+    
+    }
+    .photo2{
+        width: 7rem;
+        height: 8rem;
+        position: absolute;   
+        margin-left: -20rem;
+        margin-top: 4rem;
+
+
+    }
+    .view_title{
+        text-align: center;
+        font-size: 1.5rem;
+        line-height: 2rem;
     }
 }

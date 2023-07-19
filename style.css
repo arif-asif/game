@@ -415,7 +415,7 @@ footer{
     }
     .small_text2{
         text-align: center;
-        padding: 1rem 0.5rem;
+        padding: 1rem 1.5rem;
     }
     .funny_title{
         font-size: 1.2rem;
@@ -453,7 +453,7 @@ footer{
         line-height: 2rem;
     }
     .gametype{
-    padding: 5rem .5rem;
+    padding: 8rem .5rem;
     display: flex;
     align-items: center;
     justify-content: center;

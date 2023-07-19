@@ -140,7 +140,6 @@ header{
     padding-bottom: 5rem;
     width: 36em;
     height: 20em;
-    background-color: #FFFFFF;
 }
 .small_text2{
     padding: 1rem 0rem 1rem 3rem;
@@ -166,7 +165,6 @@ header{
     display: flex;
     flex-direction: column;
     align-items: end;
-    background-color: #FFFFFF;
 }
 .pink_button2{
     display: inline-flex;
@@ -178,6 +176,48 @@ header{
     color: #FFFFFF;
     font-size: .7rem;
     margin-bottom: 1rem;
+}
+.funny_video{
+    margin: ;
+}
+.funny_title{
+    color: #0B0223;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding-top: 7rem;
+}
+.funny{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.small_text3{
+    color: #534C64;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 3rem;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-top: 2rem;
+}
+.video_style{
+    width: 15.5rem;
+    height: 19rem;
+}
+.small_text4{
+    padding-top: .8rem;
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 16rem;
+    text-align: left;
 }
 
 
@@ -248,6 +288,17 @@ header{
         text-align: center;
         padding: 1rem 0.5rem;
     }
+    .funny_title{
+        font-size: 1.2rem;
+    }
+    .small_text4{
+        font-size: .8rem;
+    }
+    .small_text3{
+        font-size: .7rem;
+    }
+
+
 }
 
 
